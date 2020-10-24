@@ -36,7 +36,7 @@ public class Driver {
                     driver = new FirefoxDriver();
                     break;
                 default:
-                    throw new RuntimeException("Browser is not implemented yet");
+                    throw new RuntimeException("Browser is not implemented yet: "+browser);
             }
         }
         return driver;
